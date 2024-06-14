@@ -1,0 +1,16 @@
+INSERT INTO `region` (`id`, `name`, `name_kirill`, `country_id`, `status`) VALUES
+(1, 'Qoraqalpog\'iston Respublikasi', 'Қорақалпоғистон Республикаси', 235, 1),
+(2, 'Andijon viloyati', 'Андижон вилояти', 235, 1),
+(3, 'Namangan viloyati', 'Наманган вилояти', 235, 1),
+(4, 'Farg\'ona viloyati', 'Фарғона вилояти', 235, 1),
+(5, 'Buxoro viloyati', 'Бухоро вилояти', 235, 1),
+(6, 'Xorazm viloyati', 'Хоразм вилояти', 235, 1),
+(7, 'Surxondaryo viloyati', 'Сурхондарё вилояти', 235, 1),
+(8, 'Qashqadaryo viloyati', 'Қашқадарё вилояти', 235, 1),
+(9, 'Jizzax viloyati', 'Жиззах вилояти', 235, 1),
+(10, 'Navoiy viloyati', 'Навоий вилояти', 235, 1),
+(11, 'Samarqand viloyati', 'Самарқанд вилояти', 235, 1),
+(12, 'Sirdaryo viloyati', 'Сирдарё вилояти', 235, 1),
+(13, 'Toshkent viloyati', 'Тошкент вилояти', 235, 1),
+(14, 'Toshkent shahri', 'Тошкент шаҳри', 235, 1),
+(15, 'Boshqa', 'Бошқа', 19, 1);

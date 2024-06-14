@@ -1,0 +1,499 @@
+.content-editor-data-html [ceditor-element-item] {
+    position: relative;
+    padding: 13px 25px;
+    margin: 0;
+    min-height: 30px;
+}
+
+[content-editor-section-type="group"] .ceditor-element-actions-block,
+.ceditor-element-actions-block {
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.ceditor-element-actions-block-ex {
+    border-left: none;
+    border-right: none;
+}
+
+.ceditor-element-repeater-block {
+    background: #f3f3f3;
+    padding: 0 25px 0;
+    display: flex;
+    display: -md-flexbox;
+    flex-direction: column;
+}
+
+[ceditor-element-repeater] {
+    border-style: dashed;
+    border-width: 2px;
+    border-bottom: 2px dashed #e8e8e8;
+    padding: 13px 0;
+    background: #fff;
+}
+
+[ceditor-element-repeater]:last-child {
+    border-bottom: 2px dashed transparent;
+}
+
+[ceditor-element-type="repeater"],
+[ceditor-element-type="group"] {
+    border-bottom-color: #ccc;
+}
+
+[ceditor-element-type="group"] {
+    padding-bottom: 13px;
+}
+
+.ceditor-element-actions-block:hover {
+    border-color: #5664d2;
+}
+
+.ceditor-element-actions-block-ex:hover {
+    border-color: #74788d;
+}
+
+.ceditor-element-actions {
+    display: none;
+}
+
+.ceditor-element-actions-block:hover>.ceditor-element-actions {
+    display: block;
+}
+
+.content-editor-element-top-actions {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    z-index: 9999;
+}
+
+.ceditor-element-actions-ex .content-editor-element-top-actions {
+    top: -1px !important;
+}
+
+.content-editor-element-top-actions>div>button,
+.content-editor-element-top-actions>button {
+    border: none;
+    background: #5664d2;
+    color: #fff;
+    min-width: 34px;
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.content-editor-element-top-actions>div>button:hover,
+.content-editor-element-top-actions>button:hover {
+    background: #4f5bb9;
+}
+
+.content-editor-element-top-actions>div>button i,
+.content-editor-element-top-actions>button i {
+    font-size: 14px;
+}
+
+.content-editor-element-bottom-actions {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.content-editor-element-bottom-actions button {
+    border: none;
+    font-size: 25px;
+    line-height: 1;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto 0;
+    background: #5664d2;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50%;
+}
+
+.content-editor-element-bottom-actions button:hover {
+    background: #4f5bb9;
+}
+
+.content-editor-special-elements .content-editor-element-bottom-actions {
+    display: none;
+}
+
+.content-editor-data-html [ceditor-element] {
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.content-editor-data-html [ceditor-element-multi] [ceditor-element] {
+    margin-bottom: 15px;
+}
+
+.content-editor-data-html [ceditor-element] h1 {
+    font-size: 40px !important;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element] h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element] h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element] h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element] h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element] h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element="heading"] h1,
+.content-editor-data-html [ceditor-element="heading"] h2,
+.content-editor-data-html [ceditor-element="heading"] h3,
+.content-editor-data-html [ceditor-element="heading"] h4,
+.content-editor-data-html [ceditor-element="heading"] h5,
+.content-editor-data-html [ceditor-element="heading"] h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.tox .tox-collection__item-label h1 {
+    font-size: 28px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tox .tox-collection__item-label h2 {
+    font-size: 24px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tox .tox-collection__item-label h3 {
+    font-size: 20px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tox .tox-collection__item-label h4 {
+    font-size: 18px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tox .tox-collection__item-label h5 {
+    font-size: 16px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tox .tox-collection__item-label h6 {
+    font-size: 14px !important;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.content-editor-data-html [ceditor-element-item="html"] hr {
+    margin: 0;
+}
+
+.content-editor-data-html [ceditor-element] p {
+    margin-bottom: 14px;
+}
+
+.content-editor-data-html [ceditor-element="horizontal_line"] hr {
+    margin: 0;
+}
+
+.content-editor-data-html [ceditor-element] *:last-child {
+    margin-bottom: 0;
+}
+
+.content-editor-data-html [ceditor-element] blockquote {
+    margin: 0;
+    padding-left: 20px;
+    width: 100%;
+    display: block;
+    border-left: 5px solid #000;
+}
+
+.content-editor-data-html [ceditor-element="image"] figure {
+    text-align: center;
+}
+
+.content-editor-data-html [ceditor-element="image"] figure>img {
+    max-width: 100%;
+}
+
+.content-editor-data-html [ceditor-element="image"] figcaption {
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.content-editor-data-html [ceditor-element="image"] figcaption:before {
+    display: block;
+    width: 100%;
+    cursor: text;
+}
+
+.content-editor-data-html [ceditor-element="image"] figcaption,
+.content-editor-data-html [ceditor-element="image"] figcaption p {
+    font-size: 14px;
+    color: #636363;
+}
+
+.content-editor-data-html [ceditor-element-template-item="gallery_block"] {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.content-editor-data-html [ceditor-element] .stg-gallery--block {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border: none;
+}
+
+.content-editor-data-html [ceditor-element] .stg-gallery--block .stg-gallery--upload {
+    border: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.content-editor-data-html [ceditor-element] .stg-gallery--block .stg-gallery--upload>i {
+    display: none;
+}
+
+.content-editor-data-html [ceditor-element] .stg-gallery--block.stg-gallery-with-items .stg-gallery--in {
+    border: 2px dashed #eaeaea;
+    margin-top: 20px;
+}
+
+.content-editor-gallery-image {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content-editor-gallery-image-in {
+    border: 2px solid #ccc;
+    display: flex;
+    display: -ms-flexbox;
+    width: 100%;
+    padding-top: 70%;
+    position: relative;
+    overflow: hidden;
+    cursor: move;
+}
+
+.content-editor-gallery-image img {
+    max-width: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.content-editor-gallery-image .btn {
+    font-size: 14px;
+    padding: 7px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    opacity: 0;
+    transition: all ease-in .2s;
+    -moz-transition: all ease-in .2s;
+    -webkit-transition: all ease-in .2s;
+}
+
+.content-editor-gallery-image:hover .btn {
+    opacity: 1;
+}
+
+.content-editor-data-html [ceditor-element] table {
+    width: 100%;
+    margin-bottom: 14px;
+    table-layout: fixed;
+}
+
+.content-editor-data-html [ceditor-element] table td {
+    border-color: #000;
+    padding: 5px 10px;
+}
+
+[ceditor-element-item="code"],
+[ceditor-element-item="short-code"] {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid #d4d4d4;
+    background: #f7f7f7;
+    border-radius: 0;
+}
+
+[ceditor-element-item="code"] {
+    min-height: 150px;
+}
+
+[ceditor-element-item="code"]:focus,
+[ceditor-element-item="short-code"]:focus {
+    border-color: #2b2b2b;
+}
+
+.content-editor-data-html [ceditor-element-template-item="audio"] audio,
+.content-editor-data-html [ceditor-element-template-item="video"] video {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+}
+
+.content-editor-data-html [ceditor-element-template-item="vk"]>div,
+.content-editor-data-html [ceditor-element-template-item="instagram"],
+.content-editor-data-html [ceditor-element-template-item="facebook"],
+.content-editor-data-html [ceditor-element-template-item="pinterest"],
+.content-editor-data-html [ceditor-element-template-item="twitter"],
+.content-editor-data-html [ceditor-element-template-item="tiktok"],
+.content-editor-data-html [ceditor-element-template-item="vimeo"],
+.content-editor-data-html [ceditor-element-template-item="youtube"] {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content-editor-data-html [ceditor-element-template-item="instagram"] iframe {
+    max-width: 400px !important;
+}
+
+.content-editor-data-html [ceditor-element-template-item="vk"] iframe {
+    max-width: 550px !important;
+}
+
+.content-editor-data-html [ceditor-element-template-item="twitter"] blockquote,
+.content-editor-data-html [ceditor-element-template-item="tiktok"] blockquote {
+    border: none;
+}
+
+.content-editor-data-html .ceditor-element-label {
+    margin: 0 0 10px 0;
+}
+
+[ceditor-repeator-label] [ceditor-element="tinymce"] {
+    padding: 0.47rem 0.65rem;
+    color: #505d69;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    min-height: 100px;
+}
+
+[ceditor-element-repeater]:hover {
+    border-color: #74788d;
+}
+
+[ceditor-element-repeater] .content-editor-element-top-actions {
+    top: -2px;
+    right: -2px;
+}
+
+[ceditor-element-repeater] .content-editor-element-top-actions>div>button,
+[ceditor-element-repeater] .content-editor-element-top-actions>button,
+.ceditor-element-actions-ex .content-editor-element-top-actions>div>button,
+.ceditor-element-actions-ex .content-editor-element-top-actions>button {
+    background-color: #74788d;
+}
+
+[ceditor-element-repeater] .content-editor-element-top-actions>div>button:hover,
+[ceditor-element-repeater] .content-editor-element-top-actions>button:hover,
+.ceditor-element-actions-ex .content-editor-element-top-actions>div>button:hover,
+.ceditor-element-actions-ex .content-editor-element-top-actions>button:hover {
+    background-color: #5d6071;
+}
+
+[ceditor-element-repeater] .content-editor-element-bottom-actions button,
+.ceditor-element-actions-ex .content-editor-element-bottom-actions button {
+    background-color: #74788d;
+}
+
+[ceditor-element-repeater] .content-editor-element-bottom-actions button:hover .ceditor-element-actions-ex .content-editor-element-bottom-actions button:hover {
+    background-color: #5d6071;
+}
+
+[ceditor-element-type="repeater"] .content-editor-add-element-btn-block {
+    background: #f3f3f3;
+}
+
+.ceditor-element-actions-ex .content-editor-add-element-btn {
+    color: #ffffff;
+    background-color: #74788d;
+    border: 1px solid #74788d;
+    border-radius: 40px;
+    width: auto;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.ceditor-element-actions-ex .content-editor-add-element-btn:hover {
+    color: #fff;
+    background-color: #5d6071;
+    border-color: #575a6a;
+}
+
+[ceditor-element-repeater]:last-child .content-editor-element-bottom-actions {
+    display: none;
+    opacity: 0;
+}

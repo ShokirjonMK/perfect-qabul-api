@@ -1,0 +1,39 @@
+.translation-input-text {
+    display: block;
+    width: 100%;
+    height: 32px;
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    outline: none;
+    overflow:hidden;
+    resize: none;
+}
+
+.preloader-btn--active .ri-refresh-line {
+    display: inline-block;
+    animation-name: trsanslation-anim-spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-moz-keyframes trsanslation-anim-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes trsanslation-anim-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

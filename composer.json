@@ -1,0 +1,60 @@
+{
+    "name": "dacoreit/hopmeuz_web",
+    "description": "HOPEME UZ",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.hopme.uz/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "predis/predis": "^1.1",
+        "kartik-v/yii2-widget-datepicker": "dev-master",
+        "yiisoft/yii2-bootstrap4": "^2.0",
+        "yiisoft/yii2-jui": "^2.0",
+        "symfony/finder": "^5.1",
+        "phpoffice/phpspreadsheet": "^1.21",
+        "yiisoft/yii2-httpclient": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "codemix/yii2-excelexport": "^2.8",
+        "phpoffice/phpword": "^1.1",
+        "2amigos/qrcode-library": "^3.0",
+        "kartik-v/yii2-mpdf": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.1.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/codeception": "^4.0",
+        "codeception/module-asserts": "^1.0",
+        "codeception/module-yii2": "^1.0",
+        "codeception/module-filesystem": "^1.0",
+        "codeception/verify": "~0.5.0 || ~1.1.0",
+        "symfony/browser-kit": ">=2.7 <=4.2.4"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
