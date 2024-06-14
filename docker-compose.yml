@@ -24,7 +24,7 @@ services:
         depends_on:
             - mysql
         ports:
-            - 127.0.0.1:${DOCKER_NGINX_PORT}:80
+            - ${DOCKER_NGINX_PORT}:80
 
     mysql:
         image: mariadb:10.5.2
