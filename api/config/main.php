@@ -23,6 +23,7 @@ $main_config = array(
 //    ],
     'components' => [
         'request' => [
+            'baseUrl' => '/',
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
                 'multipart/form-data' => 'yii\web\MultipartFormDataParser'
